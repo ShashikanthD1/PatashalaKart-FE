@@ -13,6 +13,7 @@ import Faq from './section/faq'
 import Latestblog from './section/latest-blog'
 import Testimonials from './section/testimonials'
 import Footer from './footer'
+import SchoolList from '../../Pages/schoolList/SchoolList'
 
 const HomeOne = () => {
   return (
@@ -23,6 +24,7 @@ const HomeOne = () => {
       <Topcourses />
       <Trust/>
       <Featuredcourse />
+      <SchoolList/>
       <Community />
       <Clinet />
       <Howitworks />

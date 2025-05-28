@@ -1,7 +1,7 @@
 
 export const all_routes = {
    
-   
+   schoolList:"/schoollist",
    
     //Home Modules
     homeone: "/index",
