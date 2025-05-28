@@ -94,6 +94,7 @@ import StudentNotification from "../student/student-settings/student-notificatio
 import StudentBillingAddress from "../student/student-settings/student-billing-address/studentBillingAddress";
 import StudentQuizQuestion from "../student/student-quiz-question/studentQuizQuestion";
 import InstructorProfileSettings from "../Instructor/instructor-settings/instructor-profile-settings/instructorProfile";
+import SchoolList from "../Pages/schoolList/SchoolList";
 
 const routes = all_routes;
 
@@ -102,6 +103,12 @@ export const publicRoutes = [
     path: "/",
     name: "Root",
     element: <Navigate to="/index" />,
+    route: Route,
+  },
+  {
+    path: routes.schoolList,
+    name: "Root",
+    element: <SchoolList/>,
     route: Route,
   },
   {
