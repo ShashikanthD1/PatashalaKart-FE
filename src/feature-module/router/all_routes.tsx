@@ -2,6 +2,7 @@
 export const all_routes = {
    
    schoolList:"/schoollist",
+   addschool:"/addschool",
    
     //Home Modules
     homeone: "/index",

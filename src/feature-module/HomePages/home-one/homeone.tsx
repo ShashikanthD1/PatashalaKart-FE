@@ -1,4 +1,3 @@
-import React from 'react'
 import BannerSection from './section/banner'
 import Benefits from './section/benefits'
 import Institutions from './section/institutions'
@@ -13,18 +12,19 @@ import Faq from './section/faq'
 import Latestblog from './section/latest-blog'
 import Testimonials from './section/testimonials'
 import Footer from './footer'
-import SchoolList from '../../Pages/schoolList/SchoolList'
+import AddSchoolForm from '../../Pages/addSchool/AddSchoolFom'
+import CustomSliser from '../../../core/common/slider/CustomSlider'
 
 const HomeOne = () => {
   return (
     <div>
       <BannerSection />
       <Benefits />
+       {/* <CustomSliser/> */}
       <Institutions />
       <Topcourses />
       <Trust/>
       <Featuredcourse />
-      <SchoolList/>
       <Community />
       <Clinet />
       <Howitworks />

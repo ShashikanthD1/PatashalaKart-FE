@@ -18,7 +18,7 @@ type FormField = {
   validation: Yup.AnySchema;
 };
 
-const SchoolForm: React.FC = () => {
+const AddSchoolForm: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -132,4 +132,4 @@ const SchoolForm: React.FC = () => {
   );
 };
 
-export default SchoolForm;
+export default AddSchoolForm;
